@@ -1,0 +1,96 @@
+body {
+    background-color: #e5e5e5;
+}
+
+#container {
+    display: block;
+    margin: 0 auto;
+    margin-top: 35px;
+    margin-bottom: 25px;
+}
+
+#wrapper {
+    display: block;
+    margin: 0 auto;
+    width: 1190px;
+    background-color: white;
+    min-height: 700px;
+    padding: 15px;
+    border: 1px dashed #ddd;
+	box-shadow: 0 0 0 3px #fff, 0 0 0 5px #ddd, 0 0 0 10px #fff, 0 0 2px 10px #eee;
+}
+
+/* HEADER*/
+#header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-family: 'Press Start 2P', cursive;
+}
+
+/* BODY */
+#body {
+    display: inline-block;
+    text-align: center;
+    width: 885px;
+    margin: 15px;
+}
+
+#topic-title {
+    width: 885px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 20px;
+    text-align: center;
+    display: inline-block;
+    color: darkgray;
+    margin-top: 5px;
+    width: 400px;
+}
+
+#all_gifs {
+    text-align: center;
+}
+
+.gif {
+    margin: 8px;
+}
+
+/* Larger Version */
+.fav-added {
+    margin-top: 25px;
+}
+
+/* SIDEBAR */
+#sidebar {
+    display: inline-block;
+    width: 200px;
+    vertical-align: top;
+    margin: 15px;
+}
+
+h5 {
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+    font-size: 14px;
+}
+
+#buttons {
+    text-align: center;
+}
+
+.gif-btn {
+    margin: 5px;
+}
+
+.footer {
+    text-align: center;
+    color: darkgray;
+    font-size: 10px;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Gif-Land</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>    
+    <script src="script.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+    <div id="container">
+        <div id="wrapper">
+            <div id="header">
+                <h1>Welcome to Gif-Land!</h1>
+                <hr> 
+            </div>
+
+            <div id="body">
+                <div id="topic-title"></div>
+                <div id="all-gifs">
+                  <iframe src="https://giphy.com/embed/iGfkcRNtl8tm8" width="600" height="276" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><br>
+                <h2>Add a new topic or click one of the pre-loaded ones on the right!</h2>
+                </div>
+
+            </div>
+
+            <div id="sidebar">
+                <form id="add_form" class="form-group">
+                    <input type="text" id="add_text" class="form-control" placeholder="Add new topic">
+                    <input type="submit" id="add_submit" class="btn btn-default btn-block btn-xs" value="Add">
+                </form>
+
+                <hr>
+                
+                <h5>Topics:</h5>     
+                <div id="buttons"></div>
+
+                <hr>
+
+                <button class="random-btn btn btn-primary btn-block">Random</button>
+                <button class="trending-btn btn btn-primary btn-block">Trending</button>
+                <button class="favorites-btn btn btn-primary btn-block">Favorites</button>
+            </div>
+        </div>
+    </div>
+    <p class="footer">Powered by Giphy</p>
+</body>
+</html>
